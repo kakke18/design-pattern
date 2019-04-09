@@ -1,6 +1,6 @@
 package chapter01_Iterator;
 
-public class Main2 {
+public class Chapter01Main2 {
     public static void main(String[] args) {
         BookShelf bookShelf = new BookShelf(4);
         bookShelf.appendBook(new Book("Around the World in 80 Days"));
