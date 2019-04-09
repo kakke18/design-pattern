@@ -1,8 +1,5 @@
 package chapter01_Iterator;
 
-import chapter01_Iterator.Aggregate;
-import chapter01_Iterator.Book;
-
 import java.util.ArrayList;
 
 public class BookShelf implements Aggregate {

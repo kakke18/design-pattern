@@ -1,8 +1,5 @@
 package chapter01_Iterator;
 
-import chapter01_Iterator.Book;
-import chapter01_Iterator.BookShelf;
-
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;
     private int index;
