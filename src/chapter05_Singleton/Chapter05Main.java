@@ -1,10 +1,10 @@
-package chapter05_Singlton;
+package chapter05_Singleton;
 
 public class Chapter05Main {
     public static void main(String[] args) {
         System.out.println("Start");
-        Singlton obj1 = Singlton.getInstance();
-        Singlton obj2 = Singlton.getInstance();
+        Singleton obj1 = Singleton.getInstance();
+        Singleton obj2 = Singleton.getInstance();
         if (obj1 == obj2) {
             System.out.println("ob1とobj2は同じインスタンスです。");
         } else {

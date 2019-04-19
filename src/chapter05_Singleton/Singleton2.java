@@ -1,14 +1,14 @@
-package chapter05_Singlton;
+package chapter05_Singleton;
 
-public class Singlton2 {
-    private static Singlton2 singlton = null;
-    private Singlton2() {
+public class Singleton2 {
+    private static Singleton2 singlton = null;
+    private Singleton2() {
         System.out.println("インスタンスを生成しました。");
         slowdown();
     }
-    public static synchronized Singlton2 getInstance() {
+    public static synchronized Singleton2 getInstance() {
         if (singlton == null ) {
-            singlton = new Singlton2();
+            singlton = new Singleton2();
         }
         return singlton;
     }

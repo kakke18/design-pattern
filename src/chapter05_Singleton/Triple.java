@@ -1,4 +1,4 @@
-package chapter05_Singlton;
+package chapter05_Singleton;
 
 public class Triple {
     private static Triple[] triple = new Triple[] {

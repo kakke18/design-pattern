@@ -1,4 +1,4 @@
-package chapter05_Singlton;
+package chapter05_Singleton;
 
 public class TicketMaker {
     private int ticket = 1000;

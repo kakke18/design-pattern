@@ -1,4 +1,4 @@
-package chapter05_Singlton;
+package chapter05_Singleton;
 
 public class Chapter05Main3 {
     public static void main(String[] args) {
