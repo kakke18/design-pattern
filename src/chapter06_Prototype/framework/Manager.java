@@ -1,7 +1,5 @@
 package chapter06_Prototype.framework;
 
-import chapter06_Prototype.framework.Product;
-
 import java.util.HashMap;
 
 public class Manager {
