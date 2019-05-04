@@ -3,3 +3,4 @@ DesignPattern.iml
 out/
 .DS_Store
 *.html
+*.class
