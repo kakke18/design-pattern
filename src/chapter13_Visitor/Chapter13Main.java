@@ -25,9 +25,9 @@ public class Chapter13Main {
             usrdir.add(tomura);
             yuki.add(new File("diary.html", 100));
             yuki.add(new File("Composite.java", 200));
-            yuki.add(new File("memo.tex", 300));
-            yuki.add(new File("game.doc", 400));
-            yuki.add(new File("junk.mail", 500));
+            hanako.add(new File("memo.tex", 300));
+            tomura.add(new File("game.doc", 400));
+            tomura.add(new File("junk.mail", 500));
             rootdir.accept(new ListVisitor());
         } catch (FileTreatmentException e) {
             e.printStackTrace();
