@@ -15,7 +15,7 @@ public class Chapter09Main {
         d4.randomDisplay(10);
 
         /*--- 問題9-2 ---*/
-        CountDisplay d5 = new CountDisplay(new FileDisplayImpl("star.txt"));
+        CountDisplay d5 = new CountDisplay(new FileDisplayImpl("src/chapter09_Bridge/star.txt"));
         d5.multiDisplay(3);
 
         /*--- 問題9-3 ---*/

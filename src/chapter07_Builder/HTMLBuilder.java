@@ -12,7 +12,7 @@ public class HTMLBuilder extends Builder {
 //
 //    @Override
 //    public void makeTitle(String title) {
-//        filename = title + ".html";
+//        filename = "src/chapter07_Builder/" + title + ".html";
 //        try {
 //            writer = new PrintWriter(new FileWriter(filename));
 //        } catch (IOException e) {
@@ -52,7 +52,7 @@ public class HTMLBuilder extends Builder {
 
     @Override
     public void buildTitle(String title) {
-        filename = title + ".html";
+        filename = "src/chapter07_Builder/" + title + ".html";
         try {
             writer = new PrintWriter(new FileWriter(filename));
         } catch (IOException e) {
