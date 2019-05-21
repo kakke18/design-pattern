@@ -1,5 +1,5 @@
 .idea/
-DesignPattern.iml
+design-pattern.iml
 out/
 .DS_Store
 *.class
